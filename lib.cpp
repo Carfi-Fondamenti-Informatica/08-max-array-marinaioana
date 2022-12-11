@@ -1,9 +1,11 @@
-float numeromaggiore( float array [], int a){
+float numeromaggiore( float numeri[], int a){
     for (int i=0; i < a; i++){
-}     if( array[0] > array [i]){
+   if( numeri[0] > numeri[i]){
 
     }else {
-        array[0]= array [i];
+        numeri[0]= numeri [i];
     }
-return array[0];
+  }
+return numeri[0];
+    }
 
